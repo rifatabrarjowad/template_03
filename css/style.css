@@ -9,6 +9,10 @@ h1{
     font-size:50px
    
 }
+h2{
+    font-size:40px
+   
+}
 .name-highlight{
     color: orange;
 }
@@ -28,4 +32,45 @@ h1{
 }
 section{
     height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+}
+.dream{
+    background-image: url('../img/developer-portfolio/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 150px;
+}
+p{
+    color:dimgrey;
+}
+.exp{
+    background-image: url('../img/developer-portfolio/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 150px;
+}
+.single{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height:70%;
+
+}
+#full-s{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon,tomato);
+    border-image-slice: 1;
+
+}
+#full-v{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+
 }
